@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
-import Cards from './Cards'
+import Button1 from './button1'
 class Content extends Component{
 render(){
     return(
-<Cards/>
+        <div  id="content">
+<Button1 />
+</div>
     )
 }
 

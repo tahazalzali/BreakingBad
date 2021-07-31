@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Header from './Header';
 import Content from './Content';
+import Footer from './footer'
+
 class App extends Component{
   constructor(){
     super();
@@ -11,6 +13,9 @@ render(){
 <div>
 <Header />
 <Content/>
+
+<Footer />
+
 </div>
   )
 }
